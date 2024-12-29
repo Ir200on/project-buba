@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato";
+    background-color: #FFC5C5;
+}
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.card-container {
+    margin: auto;
+    padding: auto;
+}
+
+.card {
+    background-color: #FFF;
+    text-align: center;
+    width: 296px;
+    /* height: 307px; */
+    padding: 31px 27px 16px 28px;
+}
+
+#card-image {
+    border-radius: 8px;
+    background-color: #9CE0FF;
+    width: 241px;
+    height: 186px;
+    outline: none;
+    padding: 17px 22px 0px 21px;
+    
+}
+
+#card-text {
+    color: #333;
+    font-family: Arial, sans-serif;
+    padding: 13px 27px 16px 28px;
+    background-color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
